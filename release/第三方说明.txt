@@ -1,0 +1,9 @@
+影棋 · YehuStyleGo 第三方说明
+
+本程序使用 Python 标准库、Tcl/Tk 和 SQLite 开发，并使用 PyInstaller 打包为 Windows 单文件 EXE。
+
+如果下载包内附带“引擎”文件夹，其中包含 KataGo 1.18.1 OpenCL 引擎和 KataGo 官方 kata1 网络模型。引擎使用 MIT 风格许可，模型使用“KataGo Neural Network License”；完整许可文本见“引擎/LICENSE-KataGo.txt”和“引擎/LICENSE-Model.txt”。未附带引擎的版本需用户从官方来源自行获取，并遵守其许可。
+
+野狐客户端、野狐棋谱及相关名称归各自权利人所有。本程序只在本机读取用户主动导出的 SGF，不提供野狐账号登录功能。
+
+本程序按现状提供，不附带任何明示或暗示的担保。

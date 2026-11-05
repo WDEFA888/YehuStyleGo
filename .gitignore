@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+build/
+dist/
+*.spec
+/data/
+/tools/katago/
+/assets/smoke/
+/assets/ui/
+/assets/fox-*/
+/release/*.zip
+/release/*.exe
+*.db
+*.db-shm
+*.db-wal
+
+# 野狐客户端窗口自动化的开发调试脚本：本地保留，不上传到公开仓库。
+/tools/fox_control.py
+/tools/fox_inspect.py
+/tools/fox_save_dialog.py
+/tools/inspect_fox_uia.ps1

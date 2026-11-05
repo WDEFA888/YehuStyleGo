@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yehu-style-go"
+version = "0.1.0"
+description = "Local FoxWQ game analysis and personal-style sparring app"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [{name = "YehuStyleGo contributors"}]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["ruff>=0.9"]
+
+[project.scripts]
+yehu-style-go = "yehu_style_go.app:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
